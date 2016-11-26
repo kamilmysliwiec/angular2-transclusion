@@ -1,0 +1,11 @@
+<div class="container">
+  <h5>{{ heading }}</h5>
+  <p [style.font-weight]="counter > 0 ? '700' : '400'">Click counter: {{ counter }}</p>
+  <p>DoCheck fires: {{ doCheckFires }} times</p>
+  <ul class="collection" *ngIf="list.length > 0">
+    <li class="collection-item" *ngFor="let item of list">
+      <p>{{ item }}</p>
+    </li>
+  </ul>
+  <button type="button" class="btn red accent-2" (click)="click()">Click</button>
+</div>

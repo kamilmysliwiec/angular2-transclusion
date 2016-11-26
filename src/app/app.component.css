@@ -1,0 +1,8 @@
+.btn:active {
+  transform: scale(0.8);
+}
+
+.container {
+  margin-top: 60px;
+  width: 50%;
+}
