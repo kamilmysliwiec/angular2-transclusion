@@ -1,4 +1,6 @@
-# Kurs
+# Kurs Angular 2 – Wiele komponentów, transkluzja. Javascript / Typescript
+
+Artykuł: http://kamilmysliwiec.com/kurs-angular-2-komponentow-transkluzja
 
 This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.19-3.
 
