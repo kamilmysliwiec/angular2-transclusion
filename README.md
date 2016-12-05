@@ -1,4 +1,4 @@
-# Kurs Angular 2 – Wiele komponentów, transkluzja. Javascript / Typescript
+# Kurs Angular 2 – Wiele komponentów, transkluzja. 
 
 Artykuł: http://kamilmysliwiec.com/kurs-angular-2-komponentow-transkluzja
 
