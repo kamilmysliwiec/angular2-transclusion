@@ -1,11 +1,14 @@
-<div class="container">
-  <h5>{{ heading }}</h5>
-  <p [style.font-weight]="counter > 0 ? '700' : '400'">Click counter: {{ counter }}</p>
-  <p>DoCheck fires: {{ doCheckFires }} times</p>
-  <ul class="collection" *ngIf="list.length > 0">
-    <li class="collection-item" *ngFor="let item of list">
-      <p>{{ item }}</p>
-    </li>
-  </ul>
-  <button type="button" class="btn red accent-2" (click)="click()">Click</button>
-</div>
+<app-header>
+  <a href="#">
+    <img src="assets/images/logo.svg" alt="Logo" />
+  </a>
+</app-header>
+<app-main>
+  <h5>Dashboard</h5>
+  <app-activities-list sidebar></app-activities-list>
+</app-main>
+<app-footer>
+  <p class="grey-text text-lighten-4">
+    © 2016 Copyright Text
+  </p>
+</app-footer>
